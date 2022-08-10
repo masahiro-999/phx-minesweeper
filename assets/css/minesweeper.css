@@ -1,0 +1,49 @@
+.centering_item {
+   position: relative;          /* 位置指定 */
+   padding: 0px;               /* 余白指定 */
+   top:  0;                     /* 位置指定 */
+   bottom:  0;                  /* 位置指定 */
+   left:  0;                    /* 位置指定 */
+   right:  0;                   /* 位置指定 */
+   margin:  auto;               /* 中央寄せ */
+}
+
+.cell {
+    user-select: none;
+    border: 1px solid black;
+    background: rgb(95, 211, 27);
+    font-size:0
+}
+.cell:hover {
+    filter: brightness(150%);
+}
+
+.open {
+    font-size:25px;
+    background: rgb(253, 253, 189);
+}
+
+.open.zero{
+    font-size:0px;
+}
+
+.flag {
+    font-size:0px;
+    background-image: url("/images/flag.svg");
+}
+
+.gameover.bomb:not(.flag){
+    font-size:0;
+    background: rgb(255, 0, 0);
+    background-image: url("/images/bomb.svg");
+}
+
+.gameover.flag:not(.bomb){
+    font-size:0;
+    background-image: url("/images/ng.svg");
+}
+
+.clear.bomb{
+    font-size:0;
+    background-image: url("/images/flower.svg");
+}
