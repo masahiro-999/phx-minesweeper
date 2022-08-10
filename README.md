@@ -2,6 +2,8 @@
 
 Mine Sweeper clone 
 
+![image](https://user-images.githubusercontent.com/67159022/183947477-fffc4379-22d0-4848-8080-c01f7a838a21.png)
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
